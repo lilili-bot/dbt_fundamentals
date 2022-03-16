@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: stripe
+    database: zippy-facility-344113
+    schema: raw
+    tables: 
+      - name: stripe_payments

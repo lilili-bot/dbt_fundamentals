@@ -1,0 +1,12 @@
+# example profiles.yml file
+jaffle_shop:
+  target: dev
+  outputs:
+    dev:
+      dev:
+      type: bigquery
+      method: oauth
+      project: zippy-facility-344113
+      dataset: raw
+      location: US
+      threads: 4
