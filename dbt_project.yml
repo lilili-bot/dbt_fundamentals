@@ -40,6 +40,6 @@ models:
              materialized: table
     # Applies to all files under models/example/
         staging:
-          materialized: view
+          materialized: table
           stripe: 
-            materialized: view
+            materialized: table
